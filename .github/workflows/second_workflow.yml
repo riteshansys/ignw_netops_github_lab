@@ -2,7 +2,7 @@
 name: Second Workflow to run on master
 on:
 push:
-branches: [ master ]
+branches-ignore: [ master ]
 jobs:
 build:
 runs-on: self-hosted
