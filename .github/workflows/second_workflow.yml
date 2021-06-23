@@ -1,5 +1,5 @@
 # This is a basic workflow to show you the features of Workflows
-name: Second Workflow to run on master
+name: Change the workflow name
 on:
 push:
 branches-ignore: [ master ]
