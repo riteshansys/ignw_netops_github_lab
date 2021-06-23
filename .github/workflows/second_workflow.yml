@@ -1,0 +1,16 @@
+# This is a basic workflow to show you the features of Workflows
+name: Second Workflow to run on master
+on:
+push:
+branches: [ master ]
+jobs:
+build:
+runs-on: self-hosted
+steps:
+- name: Run a one-line script
+run: |
+# Output to the runner
+echo Hello, Runner! > /dev/pts/0
+# Output to the runner information on GitHub
+echo Hello, GitHub!
+!
